@@ -12,6 +12,20 @@
 @import "layout/main-module-3";
 @import "core/variables";
 
+* {
+  @mixin tablet {
+    @media all and (min-width: 768px) {
+      @content;
+    }
+  }
+
+  @mixin desktop {
+    @media all and (min-width: 1200px) {
+      @content;
+    }
+  }
+}
+
 :root {
   font-family: "Poppins", sans-serif;
   font-size: 16px;

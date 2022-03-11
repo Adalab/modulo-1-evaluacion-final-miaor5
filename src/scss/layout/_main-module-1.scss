@@ -1,11 +1,17 @@
 .services {
   background-color: var(--color-background-grey);
   color: var(--text-blue);
-  padding: 41px 47px 41px 45px;
+  padding: 0px 47px 41px 45px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto;
   text-align: center;
+}
+.container {
+  background-color: var(--color-background-grey);
+  color: var(--text-blue);
+  text-align: center;
+  padding: 41px 47px 0 45px;
 }
 .listservice {
   padding-top: 36px;
@@ -14,7 +20,26 @@
     width: 90px;
   }
 }
-
-.listservice__articule--title {
+.listservice__article--title {
   font-size: 20px;
+}
+
+@media all and (min-width: 768px) {
+  .container {
+    padding: 63px 38px 73px 63px;
+    height: 532px;
+
+    .services {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 45px;
+
+      .listservice {
+        padding-top: 45px;
+
+        .listservice__article {
+          padding-top: 40px;
+        }
+      }
+    }
+  }
 }
