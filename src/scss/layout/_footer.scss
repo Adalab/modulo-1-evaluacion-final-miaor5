@@ -1,0 +1,29 @@
+.footer {
+  background-color: var(--text-blue);
+  color: var(--text-footer);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  height: 545px;
+  font-size: 0.875rem;
+}
+
+.footer-title {
+  color: var(--text-footer);
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.article-footer {
+  padding-bottom: 25px;
+  color: var(--text-footer);
+  height: 181px;
+  width: 200px;
+}
+.footer-link {
+  color: var(--text-footer);
+}

@@ -1,0 +1,27 @@
+.delivery {
+  background-color: var(--color-background-delivery);
+  color: var(--text-white);
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.delivery__title {
+  font-size: 1.5rem;
+  margin: 10px 0 0;
+  line-height: 35px;
+  letter-spacing: normal;
+}
+.delivery__icon {
+  padding-top: 10px;
+}
+.delivery__text {
+  font-size: 0.875rem;
+}
+.delivery__bottom {
+  text-decoration: underline;
+  color: var(--text-white);
+  padding: 12px 24px 12px 24px;
+}

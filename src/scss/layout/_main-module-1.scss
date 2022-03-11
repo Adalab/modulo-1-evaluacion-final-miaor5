@@ -1,0 +1,12 @@
+.services {
+  background-color: var(--color-background-grey);
+  color: var(--text-blue);
+  padding: 41px 47px 41px 45px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  text-align: center;
+}
+.service__list {
+  padding-top: 36px;
+}

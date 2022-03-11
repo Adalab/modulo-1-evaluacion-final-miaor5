@@ -1,12 +1,24 @@
-/*@import 'core/variables';
-@import 'core/reset';
+/*
 @import 'components/code';
 @import 'components/links';
 @import 'layout/page';*/
 /*@import 'pages/index';*/
 
+@import "core/reset";
 @import "layout/header";
 @import "layout/footer";
 @import "layout/main-delivery";
 @import "layout/main-module-1";
 @import "layout/main-module-3";
+@import "core/variables";
+
+:root {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+
+  --color-background-grey: #f0ebe5;
+  --color-background-delivery: #ff975a;
+  --text-blue: #0c474b;
+  --text-white: #ffffff;
+  --text-footer: #b6c8c9;
+}
