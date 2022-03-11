@@ -8,10 +8,13 @@
   text-align: left;
   height: 545px;
   font-size: 0.875rem;
+  padding-top: 56px;
+  width: 100%;
 }
 
 .footer-title {
   color: var(--text-footer);
+  font-size: 20px;
 }
 
 .footer-list {
@@ -26,4 +29,22 @@
 }
 .footer-link {
   color: var(--text-footer);
+}
+
+.media-list {
+  display: flex;
+  list-style: none;
+  padding: -50px 5px;
+  gap: 11px;
+}
+
+.fa-brands {
+  height: 26px;
+  width: 25px;
+  color: var(--text-white);
+}
+.fa-solid {
+  color: var(--text-white);
+  padding-bottom: 29px;
+  padding-left: 313px;
 }
