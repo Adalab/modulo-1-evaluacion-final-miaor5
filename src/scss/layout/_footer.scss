@@ -74,3 +74,15 @@
     padding-bottom: 8px;
   }
 }
+
+@media all and (min-width: 768px) {
+  .footer {
+    height: 393px;
+    padding: 131px 352px 131px 352px;
+    gap: 200px;
+  }
+  .article-footer {
+    height: 96px;
+    width: 208;
+  }
+}

@@ -12,6 +12,7 @@
   color: var(--text-blue);
   text-align: center;
   padding: 41px 47px 0 45px;
+  height: 1108px;
 }
 .listservice {
   padding-top: 36px;
@@ -39,6 +40,39 @@
         .listservice__article {
           padding-top: 40px;
         }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container {
+    height: 611px;
+    padding-bottom: 86px;
+    padding-top: 42px;
+    &__title {
+      font-size: 36px;
+      height: 112px;
+      width: 799px;
+      text-align: center;
+      margin-left: 180px;
+    }
+  }
+
+  .listservice {
+    &__image {
+      height: 120px;
+      width: 120px;
+      text-align: center;
+    }
+    &__article {
+      &--title {
+        font-size: 24px;
+      }
+      &--p {
+        height: 96px;
+        width: 208px;
+        margin-left: 60px;
       }
     }
   }
