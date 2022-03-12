@@ -19,6 +19,7 @@
 
 .footer-list {
   list-style: none;
+  padding-bottom: 10px;
 }
 
 .article-footer {
@@ -45,6 +46,31 @@
 }
 .fa-solid {
   color: var(--text-white);
+  display: flex;
+  position: absolute;
+  bottom: -2020px;
   padding-bottom: 29px;
-  padding-left: 313px;
+  padding-left: 330px;
+}
+
+@media all and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    height: 276px;
+    padding: 120px 118px 70px 100px;
+  }
+
+  .footer-title {
+    font-size: 20px;
+  }
+  .fa-solid {
+    bottom: -1400px;
+    left: 48%;
+  }
+  .footer-title {
+    padding-bottom: 8px;
+  }
 }

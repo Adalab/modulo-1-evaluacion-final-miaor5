@@ -22,11 +22,26 @@
 
   &__text {
     font-size: 0.875rem;
+    padding-top: 10px;
   }
 
   &__bottom {
     text-decoration: underline;
     color: var(--text-white);
     padding: 12px 24px 12px 24px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .delivery__icon {
+    width: 120px;
+    height: 120px;
+  }
+
+  .delivery__title {
+    font-size: 30px;
+  }
+
+  .delivery__text {
+    padding-top: 15px;
   }
 }
