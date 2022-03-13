@@ -24,11 +24,19 @@
 
     &--bottom {
       background-color: var(--text-blue);
-      color: var(--text-white);
       width: 176px;
       height: 48px;
       padding: 12px 24px 12px 24px;
       font-size: 16px;
+      transition: 0.3s ease all;
+
+      &:hover {
+        background: lightsalmon;
+        color: black;
+        border: 1px var(--text-blue) solid;
+        border-radius: 5%;
+        text-decoration: underline;
+      }
     }
   }
 
@@ -39,10 +47,14 @@
   }
 }
 
+.box {
+  color: var(--text-white);
+}
+
 @media all and (min-width: 786px) {
   .creating__text {
     padding: 87px 190px 140px 280px;
-    .creating__text--title {
+    &--title {
       font-size: 30px;
     }
   }
@@ -73,7 +85,7 @@
         align-items: center;
         justify-content: center;
         padding-bottom: 0px;
-        background-color: red;
+        font-size: 36px;
       }
 
       &--p {
@@ -84,9 +96,5 @@
       height: 571px;
       width: 50%;
     }
-  }
-
-  .creating__text--title {
-    font-size: 36px; /*por que no se me pone*/
   }
 }

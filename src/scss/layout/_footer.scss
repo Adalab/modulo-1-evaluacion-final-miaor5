@@ -48,7 +48,7 @@
   color: var(--text-white);
   display: flex;
   position: absolute;
-  bottom: -2020px;
+  bottom: -2156px;
   padding-bottom: 29px;
   padding-left: 330px;
 }
@@ -67,22 +67,27 @@
     font-size: 20px;
   }
   .fa-solid {
-    bottom: -1400px;
-    left: 48%;
+    bottom: -1600px;
+    left: 50%;
   }
   .footer-title {
     padding-bottom: 8px;
   }
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 1200px) {
   .footer {
     height: 393px;
-    padding: 131px 352px 131px 352px;
-    gap: 200px;
+    padding: 131px 200px 131px 200px;
+    gap: 50px;
   }
   .article-footer {
     height: 96px;
-    width: 208;
+    width: 300px;
+  }
+
+  .fa-solid {
+    bottom: -2111px;
+    left: 67%;
   }
 }
