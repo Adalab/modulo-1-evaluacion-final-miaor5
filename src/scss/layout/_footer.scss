@@ -58,6 +58,11 @@
   bottom: -2156px;
   padding-bottom: 29px;
   padding-left: 330px;
+
+  &:hover {
+    color: lightsalmon;
+    font-size: 36px;
+  }
 }
 
 @media all and (min-width: 768px) {

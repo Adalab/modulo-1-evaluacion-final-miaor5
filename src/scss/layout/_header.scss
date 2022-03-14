@@ -59,7 +59,7 @@
 
   &:hover {
     background: lightsalmon;
-    color: black;
+    color: var(--text-blue);
     border: 1px var(--text-blue) solid;
     font-size: 16px;
     border-radius: 5%;
@@ -140,8 +140,9 @@
     color: var(--text-blue);
     &:hover {
       font-size: 20px;
-      color: white;
+      color: var(--text-blue);
       font-weight: bolder;
+      text-decoration: underline;
     }
   }
   .header-text {
