@@ -38,9 +38,10 @@
       transition: 0.01s ease all;
       margin: auto;
       margin-top: -5px;
+      color: var(--text-white);
 
       &:hover {
-        background: lightsalmon;
+        background: $colorbottom;
         color: var(--text-blue);
         border: 1px var(--text-blue) solid;
         border-radius: 5%;

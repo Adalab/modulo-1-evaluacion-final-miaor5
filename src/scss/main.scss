@@ -5,26 +5,12 @@
 /*@import 'pages/index';*/
 
 @import "core/reset";
+@import "core/variables";
 @import "layout/header";
 @import "layout/footer";
 @import "layout/main-delivery";
 @import "layout/main-module-1";
 @import "layout/main-module-3";
-@import "core/variables";
-
-* {
-  @mixin tablet {
-    @media all and (min-width: 768px) {
-      @content;
-    }
-  }
-
-  @mixin desktop {
-    @media all and (min-width: 1200px) {
-      @content;
-    }
-  }
-}
 
 :root {
   font-family: "Poppins", sans-serif;
