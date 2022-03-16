@@ -17,7 +17,7 @@
     width: 100%;
     color: var(--text-blue);
     font-size: 14px;
-    padding: 70px 20px 10px 27px;
+    padding: 70px 20px 20px 27px;
     height: 339px;
 
     &--title {
@@ -30,16 +30,13 @@
     }
 
     &--bottom {
-      background-color: var(--text-blue);
-      width: 176px;
-      height: 48px;
       padding: 12px 24px 12px 24px;
       font-size: 16px;
       transition: 0.01s ease all;
       margin: auto;
       margin-top: -5px;
       color: var(--text-white);
-
+      text-decoration: underline;
       &:hover {
         background: $colorbottom;
         color: var(--text-blue);
