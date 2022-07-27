@@ -25,13 +25,13 @@
     }
 
     &--p {
-      margin: 21px 0 23px;
+      margin: 0px 0 23px;
       padding-bottom: 10px;
     }
 
     &--bottom {
       background-color: var(--text-blue);
-      width: 176px;
+      width: 120px;
       height: 48px;
       padding: 12px 24px 12px 24px;
       font-size: 16px;
@@ -73,7 +73,7 @@
   }
 
   .creating__text--p {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
   }
 
   .creating__image {
@@ -102,6 +102,7 @@
       }
 
       &--p {
+        margin-top: -10px;
         font-size: 16px;
       }
 
